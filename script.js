@@ -16,7 +16,7 @@ function play(){
             Aiturn();
             if(checkWinner(buttons , 'X')){
                 document.querySelector('.board').style.display = 'none'
-                document.querySelector('.winner').style.backgroundImage = 'url("/images/X.jpg")'
+                document.querySelector('.winner').style.backgroundImage = 'url("X.jpg")'
                 document.querySelector('.word').style.display = 'block';
                 document.querySelector('.words').style.display = 'block';
                 setTimeout(function(){
@@ -24,7 +24,7 @@ function play(){
                 },1500)
             }else if(checkWinner(buttons,'O')){
                 document.querySelector('.board').style.display = 'none'
-                document.querySelector('.winner').style.backgroundImage = 'url("/images/O.jpg")'
+                document.querySelector('.winner').style.backgroundImage = 'url("O.jpg")'
                 document.querySelector('.word').style.display = 'block';
                 document.querySelector('.words').style.display = 'block';
                 setTimeout(function(){
